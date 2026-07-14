@@ -25,7 +25,7 @@
   function: (identifier) @function.builtin)
  (#match?
    @function.builtin
-   "^(abs|all|any|ascii|bin|bool|breakpoint|bytearray|bytes|callable|chr|classmethod|compile|complex|delattr|dict|dir|divmod|enumerate|eval|exec|filter|float|format|frozenset|getattr|globals|hasattr|hash|help|hex|id|input|int|isinstance|issubclass|iter|len|list|locals|map|max|memoryview|min|next|object|oct|open|ord|pow|print|property|range|repr|reversed|round|set|setattr|slice|sorted|staticmethod|str|sum|super|tuple|type|vars|zip|__import__)$"))
+   "^(abs|addpattern|all|all_equal|and_then|and_then_await|any|ascii|async_map|bin|bool|breakpoint|bytearray|bytes|call|callable|cartesian_product|chr|classmethod|collectby|compile|complex|const|consume|count|cycle|delattr|dict|dir|divmod|dropwhile|enumerate|eval|exec|Expected|filter|flatten|flip|float|fmap|format|frozenset|getattr|globals|groupsof|hasattr|hash|help|hex|id|ident|input|int|isinstance|issubclass|iter|len|lift|lift_apart|list|locals|makedata|map|mapreduce|max|memoize|memoryview|min|multiset|multi_enumerate|next|object|oct|open|ord|override|pow|print|process_map|property|range|recursive_generator|reduce|reiterable|repr|reveal_locals|reveal_type|reversed|round|safe_call|scan|set|setattr|slice|sorted|starmap|staticmethod|str|sum|super|takewhile|tee|thread_map|tuple|type|vars|windowsof|zip|zip_longest|__import__)$"))
 
 ; Function definitions
 
