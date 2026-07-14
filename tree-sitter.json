@@ -1,22 +1,21 @@
 {
   "grammars": [
     {
-      "name": "python",
-      "camelcase": "Python",
-      "scope": "source.python",
+      "name": "coconut",
+      "camelcase": "Coconut",
+      "scope": "source.coconut",
       "path": ".",
       "file-types": [
-        "py"
+        "coco"
       ],
       "highlights": "queries/highlights.scm",
       "tags": "queries/tags.scm",
-      "injection-regex": "py"
     }
   ],
   "metadata": {
-    "version": "0.25.0",
+    "version": "0.0.1",
     "license": "MIT",
-    "description": "Python grammar for tree-sitter",
+    "description": "Coconut grammar for tree-sitter",
     "authors": [
       {
         "name": "Max Brunsfeld",
@@ -25,18 +24,17 @@
       {
         "name": "Amaan Qureshi",
         "email": "amaanq12@gmail.com"
+      },
+      {
+        "name": "Lucas"
+        "email": "nope"
       }
     ],
     "links": {
-      "repository": "https://github.com/tree-sitter/tree-sitter-python"
+      "repository": "https://github.com/VCG-On-Vacay/tree-sitter-coconut"
     }
   },
   "bindings": {
-    "c": true,
-    "go": true,
-    "node": true,
-    "python": true,
-    "rust": true,
-    "swift": true
+
   }
 }
