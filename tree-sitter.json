@@ -9,7 +9,7 @@
         "coco"
       ],
       "highlights": "queries/highlights.scm",
-      "tags": "queries/tags.scm",
+      "tags": "queries/tags.scm"
     }
   ],
   "metadata": {
@@ -26,7 +26,7 @@
         "email": "amaanq12@gmail.com"
       },
       {
-        "name": "Lucas"
+        "name": "Lucas",
         "email": "nope"
       }
     ],
