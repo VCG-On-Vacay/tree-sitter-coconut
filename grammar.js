@@ -785,6 +785,7 @@ module.exports = grammar({
         [prec.left, '^', PREC.xor],
         [prec.left, '<<', PREC.shift],
         [prec.left, '>>', PREC.shift],
+        [prec.left, '??', PREC.none_coalesce],
       ];
 
       // @ts-ignore
