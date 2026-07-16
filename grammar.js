@@ -1147,7 +1147,7 @@ module.exports = grammar({
         repeat1(/[0-9]+_?/),
         choice(
           optional(/[Ll]/), // long numbers
-          optional(/[jJ]/), // complex numbers
+          optional(/[jJiI]/), // complex numbers
         ),
       ),
     )),
@@ -1162,7 +1162,7 @@ module.exports = grammar({
           seq(optional(digits), '.', digits, optional(exponent)),
           seq(digits, exponent),
         ),
-        optional(/[jJ]/),
+        optional(/[jJiI]/),
       ));
     },
 
