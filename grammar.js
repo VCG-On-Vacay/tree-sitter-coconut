@@ -1059,12 +1059,20 @@ module.exports = grammar({
       $.expression,
     ),
 
-    conditional_expression: $ => prec.right(PREC.conditional, seq(
+    conditional_expression: $ => prec.right(PREC.conditional, choice(seq(
       $.expression,
       'if',
       $.expression,
       'else',
       $.expression,
+    ), seq(
+      'if',
+      $.expression,
+      'then',
+      $.expression,
+      'else',
+      $.expression,
+    ),
     )),
 
     concatenated_string: $ => seq(
